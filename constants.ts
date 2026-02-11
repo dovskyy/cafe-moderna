@@ -1,17 +1,17 @@
 import { MenuItem, Review, SocialLink } from './types';
 
 export const NAV_LINKS = [
-  { label: 'About', href: '#about' },
+  { label: 'O nas', href: '#about' },
   { label: 'Menu', href: '#menu' },
-  { label: 'Gallery', href: '#gallery' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Galeria', href: '#gallery' },
+  { label: 'Kontakt', href: '#contact' },
 ];
 
 export const MENU_ITEMS: MenuItem[] = [
   {
     id: '1',
     name: 'Espresso Tonic',
-    description: 'Double shot espresso, tonic water, grapefruit zest, rosemary.',
+    description: 'Podwójne espresso, tonik, skórka grejpfruta, rozmaryn.',
     price: '18 PLN',
     category: 'coffee',
     highlight: true,
@@ -19,55 +19,55 @@ export const MENU_ITEMS: MenuItem[] = [
   {
     id: '2',
     name: 'Flat White',
-    description: 'Velvety steamed milk over a double shot of our house blend.',
+    description: 'Aksamitne spienione mleko na podwójnym espresso naszej domowej mieszanki.',
     price: '16 PLN',
     category: 'coffee',
   },
   {
     id: '3',
     name: 'Chemex Brew',
-    description: 'Pour-over method yielding a clean, floral cup. Beans from Ethiopia.',
+    description: 'Metoda przelewowa dająca czysty, kwiatowy napar. Ziarna z Etiopii.',
     price: '22 PLN',
     category: 'coffee',
   },
   {
     id: '4',
     name: 'Sernik Baskijski',
-    description: 'San Sebastian style cheesecake with a caramelized top and creamy center.',
+    description: 'Sernik w stylu San Sebastian, skarmelizowany wierzch i kremowy środek.',
     price: '24 PLN',
     category: 'pastry',
     highlight: true,
   },
   {
     id: '5',
-    name: 'Pistachio Croissant',
-    description: 'Buttery French pastry filled with artisanal pistachio cream.',
+    name: 'Croissant Pistacjowy',
+    description: 'Maślany francuski rogalik wypełniony rzemieślniczym kremem pistacjowym.',
     price: '19 PLN',
     category: 'pastry',
   },
   {
     id: '6',
-    name: 'Avocado Toast',
-    description: 'Sourdough, smashed avocado, poached egg, chili flakes, microgreens.',
+    name: 'Tost z Awokado',
+    description: 'Chleb na zakwasie, awokado, jajko w koszulce, płatki chilli, mikroliście.',
     price: '32 PLN',
     category: 'breakfast',
   },
 ];
 
 export const REVIEWS: Review[] = [
-  { id: '1', author: 'Anna K.', text: 'Best coffee in Bydgoszcz. The interior is stunningly minimal.', rating: 5 },
-  { id: '2', author: 'Piotr W.', text: 'The atmosphere is perfect for remote work or a quiet chat.', rating: 5 },
-  { id: '3', author: 'Marta L.', text: 'Try the Basque cheesecake, it is out of this world!', rating: 5 },
+  { id: '1', author: 'Anna K.', text: 'Najlepsza kawa w Olsztynie. Wnętrze jest niesamowicie minimalistyczne.', rating: 5 },
+  { id: '2', author: 'Piotr W.', text: 'Idealna atmosfera do pracy zdalnej lub spokojnej rozmowy.', rating: 5 },
+  { id: '3', author: 'Marta L.', text: 'Koniecznie spróbujcie sernika baskijskiego, jest nieziemski!', rating: 5 },
 ];
 
 export const SOCIALS: SocialLink[] = [
-  { platform: 'Instagram', url: '#', label: '@cafemoderna.byd' },
-  { platform: 'Facebook', url: '#', label: 'Cafe Moderna Bydgoszcz' },
+  { platform: 'Instagram', url: '#', label: '@cafemoderna.olsztyn' },
+  { platform: 'Facebook', url: '#', label: 'Cafe Moderna Olsztyn' },
 ];
 
 export const CONTACT_INFO = {
-  address: 'ul. Gdańska 10, 85-006 Bydgoszcz',
-  phone: '+48 52 123 45 67',
+  address: 'ul. Prosta 12, 10-029 Olsztyn',
+  phone: '+48 89 123 45 67',
   email: 'hello@cafemoderna.pl',
   hours: {
     weekdays: '7:30 - 20:00',

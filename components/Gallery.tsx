@@ -19,7 +19,7 @@ const Gallery: React.FC = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-6xl text-center md:text-left"
          >
-            Vibes
+            Klimat
          </motion.h2>
       </div>
 

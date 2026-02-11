@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
         <div className="text-center md:text-left">
           <h3 className="font-serif text-2xl text-stone-100 mb-2">MODERNA</h3>
-          <p className="text-xs uppercase tracking-widest">Bydgoszcz</p>
+          <p className="text-xs uppercase tracking-widest">Olsztyn</p>
         </div>
 
         <div className="flex gap-6">
@@ -25,7 +25,7 @@ const Footer: React.FC = () => {
         </div>
 
         <div className="text-xs text-stone-600">
-          © {new Date().getFullYear()} Cafe Moderna. All rights reserved.
+          © {new Date().getFullYear()} Cafe Moderna. Wszelkie prawa zastrzeżone.
         </div>
       </div>
     </footer>

@@ -13,7 +13,7 @@ const Menu: React.FC = () => {
              viewport={{ once: true }}
              className="text-stone-500 uppercase tracking-widest text-sm"
           >
-            Taste
+            Smak
           </motion.span>
           <motion.h2 
              initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ const Menu: React.FC = () => {
              viewport={{ once: true }}
              className="font-serif text-4xl md:text-5xl mt-2"
           >
-            Selected Menu
+            Wybrane Menu
           </motion.h2>
         </div>
 
@@ -46,7 +46,7 @@ const Menu: React.FC = () => {
               </p>
               {item.highlight && (
                  <span className="inline-block mt-2 text-[10px] uppercase tracking-wider text-white bg-stone-900 px-2 py-0.5 rounded-full">
-                   Signature
+                   Polecane
                  </span>
               )}
             </motion.div>
@@ -55,7 +55,7 @@ const Menu: React.FC = () => {
         
         <div className="mt-16 text-center">
             <a href="#" className="inline-block border-b border-stone-900 text-stone-900 pb-1 hover:text-stone-600 hover:border-stone-600 transition-all uppercase tracking-widest text-xs">
-                View Full Menu
+                Zobacz Pełne Menu
             </a>
         </div>
       </div>
