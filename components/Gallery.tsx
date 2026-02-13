@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const images = [
-  "https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?q=80&w=600&auto=format&fit=crop", // Barista
+  "https://images.unsplash.com/photo-1532713107108-dfb5d8d2fc42?q=80&w=600&auto=format&fit=crop", // Barista
   "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=600&auto=format&fit=crop", // Coffee
   "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=600&auto=format&fit=crop",   // Interior
   "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop", // Table
@@ -19,7 +19,7 @@ const Gallery: React.FC = () => {
             viewport={{ once: true }}
             className="font-serif text-4xl md:text-6xl text-center md:text-left"
          >
-            Klimat
+            Galeria zdjęć
          </motion.h2>
       </div>
 
