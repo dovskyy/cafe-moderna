@@ -3,8 +3,13 @@ export interface MenuItem {
   name: string;
   description: string;
   price: string;
-  category: 'coffee' | 'pastry' | 'breakfast';
+  category: 'coffee' | 'pastry' | 'breakfast' | 'tea' | 'lunch';
   highlight?: boolean;
+}
+
+export interface MenuSection {
+  title: string;
+  items: MenuItem[];
 }
 
 export interface SocialLink {
