@@ -2,11 +2,11 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const images = [
-  "https://picsum.photos/id/1060/600/800", // Barista
-  "https://picsum.photos/id/312/600/400",  // Coffee
-  "https://picsum.photos/id/63/600/800",   // Interior
-  "https://picsum.photos/id/42/600/400",   // Table
-  "https://picsum.photos/id/835/600/800",  // People
+  "https://images.unsplash.com/photo-1514432324607-a09d9b4aefda?q=80&w=600&auto=format&fit=crop", // Barista
+  "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=600&auto=format&fit=crop", // Coffee
+  "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?q=80&w=600&auto=format&fit=crop",   // Interior
+  "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=600&auto=format&fit=crop", // Table
+  "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=600&auto=format&fit=crop", // People
 ];
 
 const Gallery: React.FC = () => {
