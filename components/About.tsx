@@ -55,7 +55,7 @@ const About: React.FC = () => {
                className="mt-12"
              >
                 <img 
-                  src="https://picsum.photos/id/225/400/600" 
+                  src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=400&auto=format&fit=crop"
                   alt="Barista nalewający kawę" 
                   className="w-full h-auto object-cover rounded-sm grayscale hover:grayscale-0 transition-all duration-700"
                 />
@@ -67,7 +67,7 @@ const About: React.FC = () => {
                 transition={{ delay: 0.4 }}
              >
                 <img 
-                  src="https://picsum.photos/id/364/400/600" 
+                  src="https://images.unsplash.com/photo-1534778101976-62847782c213?q=80&w=400&auto=format&fit=crop"
                   alt="Latte Art" 
                   className="w-full h-auto object-cover rounded-sm grayscale hover:grayscale-0 transition-all duration-700"
                 />
